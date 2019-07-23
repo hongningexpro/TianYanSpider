@@ -105,4 +105,4 @@ class TYSpider(object):
 if __name__ == "__main__":
     #db.db_connect()
     t = TYSpider()
-    t.run(1,"江苏睿希")
+    t.run(1,"江苏xx")

@@ -7,7 +7,7 @@ def db_connect():
     功能:连接数据库接口
     """
     global g_db
-    g_db = connect(host = "localhost",port=3306,user="root",password="hongning",database="TYSpiderDB",charset="utf8")
+    g_db = connect(host = "localhost",port=3306,user="root",password="xxxxxxxx",database="TYSpiderDB",charset="utf8")
     if not g_db:
         print("database connect failed") 
     else:
